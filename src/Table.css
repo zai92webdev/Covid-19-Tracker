@@ -1,0 +1,17 @@
+.table{
+    margin-top: 10px;
+    overflow-y: hidden;
+    height: 600px; 
+    background-color: white;
+    padding-right: 10px;
+    width: 350px;
+}
+
+.table:hover {
+    overflow-y:scroll;
+    transition: all ease-in-out 0.7s;
+}
+
+.table tr:nth-child(odd){
+    background-color: rgba(187, 187, 187, 0.274);
+}

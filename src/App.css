@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app{
+  min-height: 150vh;
+  background-color: rgba(219, 219, 219, 0.363);
+}
+
+.app__map{
+position: relative;
+display: flex !important;
+flex-direction: column !important;
+justify-content: center !important;
+}
+
+.app__mapChart{
+  -webkit-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.57);
+box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.57);
+}
+
+
+
+.app__headerLeft > .MuiFilledInput-root {
+  background-color: rgba(241, 241, 241, 0.918);
+
+}
+.app__headerLeft > .MuiFilledInput-root:hover {
+  background-color: rgba(216, 216, 216, 0.918);
+}
+.app__headerLeft >.MuiFilledInput-root{
+  border-radius: 1rem;
+}
+.app__headerLeft >.MuiFilledInput-root.Mui-focused{
+  background-color: rgba(250, 250, 250, 0.918);
+}
+.app__headerLeft >.MuiFilledInput-underline:after {
+  border: none;
+}
+.app__headerLeft > .MuiFilledInput-underline:before {
+border: none ; 
+}
+.app__headerLeft > .MuiFilledInput-underline:hover:before {
+  border: none ; 
+  }
+.app__mapdropdown > .MuiFilledInput-underline:before{
+  border: none;
+}
+.app__mapdropdown{
+  width: fit-content;
+  margin: 1rem  auto;
+}
+.app__mapdropdown >.MuiFilledInput-input{
+  padding: 10px;
+  border-radius: 2rem;
+}
+
+
+
+.app__headerLeft> .MuiSelect-select:focus{
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(214, 214, 214);
+  }
+
+.app__infoBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.app__header{
+  background-image: url('./images/home-banner.jpg');
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 240px;
+  padding-bottom: 2rem;
+  margin-top: 3px;
+  align-items: flex-end;
+}
+
+.app__headerLeft > h1{
+  font-size: 5rem;
+  color: rgba(226, 219, 219, 0.959);
+  
+}
+
+.app__headerLeft{
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.app__headerRight{
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.app__chart {
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: space-between;
+  background-color: rgba(173, 169, 169, 0.363);
+}
+
+.app__chartRight{
+  flex: 0.7;
+  height: fit-content;
+}
+.app__chartLeft{
+  display: flex;
+  flex: 0.3;
+  justify-content: center;
+  
+}
+
