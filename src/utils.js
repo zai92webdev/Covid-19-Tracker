@@ -55,6 +55,3 @@ export const showDataOnMap = (data, casesType) => (
     ))
 )
 
-// export const prettyPrintStat = (stat) => {
-//     stat ? `+${numeral(stat).format("0.0a")}` : "+0";
-// }
