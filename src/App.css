@@ -56,8 +56,6 @@ border: none ;
   border-radius: 2rem;
 }
 
-
-
 .app__headerLeft> .MuiSelect-select:focus{
   border-radius: 1rem;
   border: none;
@@ -86,6 +84,7 @@ border: none ;
 .app__headerLeft > h1{
   font-size: 5rem;
   color: rgba(226, 219, 219, 0.959);
+  text-align: center;
   
 }
 
@@ -107,19 +106,57 @@ border: none ;
 
 .app__chart {
   display: flex;
-  padding: 1rem 1rem;
-  justify-content: space-between;
+  padding: 2rem 1rem;
   background-color: rgba(173, 169, 169, 0.363);
+  justify-content: space-around;
 }
 
-.app__chartRight{
-  flex: 0.7;
-  height: fit-content;
-}
-.app__chartLeft{
-  display: flex;
-  flex: 0.3;
-  justify-content: center;
-  
+
+
+
+@media (max-width: 1230px) {
+    .app__header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-position: left ;
+    }
+
+    .app__headerLeft {
+      margin: 0;
+    }
+
+    .app__headerLeft > h1 {
+      font-size: 4rem;
+      color: rgb(255, 255, 255);
+    }
+
+    .app__chart{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
+@media (max-width: 870px) {
+  .app__headerLeft > h1 {
+    font-size: 2rem;
+  }
+
+  .app__chart {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .app__headerLeft > h1 {
+    font-size: 1.5rem;
+  }
+
+  .app__mapdropdown {
+    width: 200px;
+  }
+}

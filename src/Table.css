@@ -1,7 +1,8 @@
 .table{
     margin-top: 10px;
     overflow-y: hidden;
-    height: 600px; 
+    max-height: 600px; 
+    height: 100%;
     background-color: white;
     padding-right: 10px;
     width: 350px;
@@ -14,4 +15,29 @@
 
 .table tr:nth-child(odd){
     background-color: rgba(187, 187, 187, 0.274);
+}
+
+@media (max-width: 1450px) {
+    .table{
+        height: 500px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .table {
+        height: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .table {
+        width: 250px;
+        padding: 0;
+        height: 300px;
+        
+    }
+    .table td {
+        font-size: 13px;
+    }
 }

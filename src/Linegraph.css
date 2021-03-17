@@ -1,0 +1,53 @@
+.linegraph {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 1100px;
+}
+
+@media (max-width: 1560px) {
+    .linegraph {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .linegraph {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .linegraph {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .linegraph {
+        width: 600px;
+        padding: 0;
+        margin-top: 2rem;
+    }
+}
+
+
+@media (max-width: 668px) {
+    .linegraph {
+        width: 500px;
+    }
+}
+
+@media (max-width: 560px) {
+    .linegraph {
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .linegraph {
+        width: 280px;
+        padding: 0%;
+        margin-top: 2rem;
+    }
+}

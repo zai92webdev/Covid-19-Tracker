@@ -30,3 +30,27 @@ margin: 1rem;
     font-size: 1rem !important;
     margin-top: 15px !important;
 }
+
+@media (max-width: 870px) {
+    .infoBox {
+        width: 200px;
+    }
+}
+
+@media (max-width: 720px) {
+    .infoBox {
+        width: 200px;
+        margin: 5px;
+    }
+    .infoBox__title {
+        font-size: 1rem;
+    }
+
+    .infoBox__cases {
+        font-size: 1.2rem;
+    }
+    .infoBox__total {
+        font-size: 0.9rem !important;
+        margin-top: 5px !important;
+    }
+}
